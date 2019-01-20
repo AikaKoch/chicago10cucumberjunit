@@ -17,10 +17,10 @@ Feature: Testing datatables website
     Examples: Test data for datatables
       |firstname|lastname|position|office |extension|date      |salary|
       |john     |doe     |retired |london |314      |2019-12-12|125000|
-      |joe      |wong    |working |chicago|312      |2019-11-01|150000|
-      |adam     |sandler |actor   |cali   |310      |2019-10-10|250000|
-      |jen      |sandler |actor   |cali   |310      |2019-10-10|250000|
-      |daughter |sandler |actor   |cali   |310      |2019-10-10|250000|
+      #|joe      |wong    |working |chicago|312      |2019-11-01|150000|
+      #|adam     |sandler |actor   |cali   |310      |2019-10-10|250000|
+      #|jen      |sandler |actor   |cali   |310      |2019-10-10|250000|
+      #|daughter |sandler |actor   |cali   |310      |2019-10-10|250000|
 
 
 

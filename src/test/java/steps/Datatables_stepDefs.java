@@ -151,13 +151,12 @@ public class Datatables_stepDefs {
     public void user_should_see_first_name_is_inserted_in_the_table(String expectedName) throws InterruptedException {
 
         String expected = expectedName;
-        System.out.println(expected);
         Thread.sleep(500);
         String actual = dtpObj.firstResult.getText();
-        System.out.println(actual);
+
 
         //TODO: fix this later
-
+        Assert.fail();
         Thread.sleep(500);
         Assert.assertTrue("Name was not found!",actual.contains(expected));
 

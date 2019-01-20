@@ -160,8 +160,6 @@ public class Datatables_stepDefs {
 
         Thread.sleep(500);
         Assert.assertTrue("Name was not found!",actual.contains(expected));
-        System.out.println("Aika");
-        System.out.println("Nari");
 
     }
 }

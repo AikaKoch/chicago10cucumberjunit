@@ -19,6 +19,9 @@ public class ExcelRead {
         XSSFSheet worksheet = workbook.getSheet("Employees");
         System.out.println(worksheet.getRow(2).getCell(1));
         System.out.println(worksheet.getRow(5).getCell(0));
+        System.out.println("------------");
+        System.out.println(worksheet.getRow(2).getCell(1).getStringCellValue());
+        System.out.println("--------------");
 
         int usedRows = worksheet.getPhysicalNumberOfRows();
         System.out.println("physical number of rows " + usedRows);
@@ -28,6 +31,7 @@ public class ExcelRead {
         for (int i = 0; i < usedRows; i++) {
             if (worksheet.getRow(i).getCell(0).toString().equals("Nancy")) {
                 System.out.println("Nancy's job " + worksheet.getRow(i).getCell(2));
+
             }
         }
             System.out.println("-----------");

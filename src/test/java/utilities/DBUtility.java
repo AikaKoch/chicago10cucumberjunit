@@ -1,7 +1,5 @@
 package utilities;
 
-import test.DBType;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;

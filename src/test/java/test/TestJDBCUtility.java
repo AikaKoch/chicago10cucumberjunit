@@ -1,5 +1,6 @@
 package test;
 
+import utilities.DBType;
 import utilities.DBUtility;
 
 import java.sql.SQLException;
@@ -16,7 +17,7 @@ public class TestJDBCUtility {
         String query="select employee_id, first_name, last_name,salary from employees\n" +
                 "where rowNum in(1,2,3)";
 
-        DBUtility.openConnection(DBType.ORACLE);
+        DBUtility.openConnection(DBType.ORACLE.ORACLE);
 
         resultTable=DBUtility.executeSQLQuery(query);
 

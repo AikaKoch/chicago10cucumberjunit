@@ -8,6 +8,15 @@ public class Student {
     private String lastName ;
     private Contact contact;
     private Company company;
+    private int batch;
+
+    public int getBatch() {
+        return batch;
+    }
+
+    public void setBatch(int batch) {
+        this.batch = batch;
+    }
 
     public Company getCompany() {
         return company;

@@ -2,25 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="571796eb-2903-47db-91a8-f8348f6cc735" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiModels/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiModels/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiModels/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiModels/CustomResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiModels/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTests/Mapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTests/PostApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTests/RequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/apiSteps/SingleStudentSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/apiSteps/StudentEmail_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/apiSteps/StudentTitleSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/APIRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/apiFeatures/StudentEmai.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/apiFeatures/StudentTitle.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/apiFeatures/singleStudent.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiModels/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiModels/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiModels/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiModels/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiModels/CustomResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiModels/CustomResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiModels/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiModels/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTests/PostApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/PostApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestJDBCUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestJDBCUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/amazonTitle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/amazonTitle.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/embedded0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/apiModels/Instructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiModels/Instructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apiModels/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiModels/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apiModels/CustomResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiModels/CustomResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apiModels/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiModels/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apiTests/PostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiTests/PostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/amazonTitle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/amazonTitle.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/DBType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/TestJDBCUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/TestJDBCUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/DBUtility$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/DBUtility$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/DBUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/DBUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,92 +41,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/PojoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/APIRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="627">
+              <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/CMstudent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/Mapping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/PostApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Company.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Instructor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,68 +57,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/CustomResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="418">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Contact.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="91">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/apiSteps/StudentEmail_steps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="14" column="77" lean-forward="true" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/apiFeatures/StudentTitle.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="88">
+              <caret line="4" column="69" lean-forward="true" selection-end-line="4" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/apiSteps/StudentTitleSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="24" selection-end-column="5" />
               <folding>
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/apiFeatures/StudentEmai.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -209,17 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/features/example.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/wiki.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/Test_steps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/WikipediaPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/WikipediaSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/amazon.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/google_stepDefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Amazon_steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Youtube_steps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/youtube.feature" />
@@ -245,21 +166,32 @@
         <option value="$PROJECT_DIR$/src/test/java/utilities/DBUtility.java" />
         <option value="$PROJECT_DIR$/configurations.properties" />
         <option value="$PROJECT_DIR$/src/test/java/test/ExcelRead.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/apiTests/CMstudent.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/apiTests/PojoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/DBType.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/TestJDBCUtility.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runners/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/apiModels/Instructor.java" />
         <option value="$PROJECT_DIR$/src/test/java/apiModels/Contact.java" />
         <option value="$PROJECT_DIR$/src/test/java/apiTests/Mapping.java" />
-        <option value="$PROJECT_DIR$/src/test/java/apiModels/Company.java" />
         <option value="$PROJECT_DIR$/src/test/java/apiModels/Address.java" />
         <option value="$PROJECT_DIR$/src/test/java/apiModels/Student.java" />
-        <option value="$PROJECT_DIR$/src/test/java/apiModels/CustomResponse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiTests/RequestBody.java" />
         <option value="$PROJECT_DIR$/src/test/java/apiTests/PostApi.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/apiFeatures/singleStudent.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/apiSteps/SingleStudentSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiModels/CustomResponse.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/amazonTitle.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/AmazonTitle_steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/APIRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiModels/Company.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/apiFeatures/StudentTitle.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/apiSteps/StudentTitleSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/apiFeatures/StudentEmai.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/apiSteps/StudentEmail_steps.java" />
       </list>
     </option>
   </component>
@@ -365,6 +297,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="apiSteps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -390,6 +331,26 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="apiFeatures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -399,7 +360,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="preferences&#9;PSI&#9;JAVA://java.util.prefs.Preferences" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549749253100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549836876007" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -424,24 +385,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PostApi.studentLocation">
-    <configuration name="Mapping.student" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chicago10cucumberjunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTests" />
-      <option name="MAIN_CLASS_NAME" value="apiTests.Mapping" />
-      <option name="METHOD_NAME" value="student" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="PostApi.batch7Students" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chicago10cucumberjunit" />
       <extension name="coverage">
         <pattern>
@@ -451,22 +396,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="apiTests" />
       <option name="MAIN_CLASS_NAME" value="apiTests.PostApi" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostApi.customSingleStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chicago10cucumberjunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTests" />
-      <option name="MAIN_CLASS_NAME" value="apiTests.PostApi" />
-      <option name="METHOD_NAME" value="customSingleStudent" />
+      <option name="METHOD_NAME" value="batch7Students" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -504,20 +434,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostApi.utilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago10cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.PostApi" />
+      <option name="METHOD_NAME" value="utilTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago10cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Mapping.student" />
-      <item itemvalue="JUnit.PostApi" />
-      <item itemvalue="JUnit.PostApi.customSingleStudent" />
+      <item itemvalue="JUnit.PostApi.batch7Students" />
       <item itemvalue="JUnit.PostApi.listOfInstructors" />
       <item itemvalue="JUnit.PostApi.studentLocation" />
+      <item itemvalue="JUnit.PostApi.utilTest" />
+      <item itemvalue="JUnit.Runner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="JUnit.PostApi.batch7Students" />
+        <item itemvalue="JUnit.PostApi.utilTest" />
         <item itemvalue="JUnit.PostApi.studentLocation" />
         <item itemvalue="JUnit.PostApi.listOfInstructors" />
-        <item itemvalue="JUnit.PostApi.customSingleStudent" />
-        <item itemvalue="JUnit.PostApi" />
-        <item itemvalue="JUnit.Mapping.student" />
       </list>
     </recent_temporary>
   </component>
@@ -535,42 +496,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostApi_customSingleStudent - 2019.02.09 at 14h 59m 07s.xml">
-      <configuration name="PostApi.customSingleStudent" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.02.10 at 15h 05m 36s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostApi_listOfInstructors - 2019.02.09 at 15h 00m 32s.xml">
-      <configuration name="PostApi.listOfInstructors" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.02.10 at 15h 06m 51s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostApi_customSingleStudent - 2019.02.09 at 15h 03m 02s.xml">
-      <configuration name="PostApi.customSingleStudent" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.02.10 at 15h 09m 15s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostApi_listOfInstructors - 2019.02.09 at 15h 06m 18s.xml">
-      <configuration name="PostApi.listOfInstructors" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.02.10 at 15h 11m 00s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostApi_listOfInstructors - 2019.02.09 at 15h 12m 22s.xml">
-      <configuration name="PostApi.listOfInstructors" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.02.10 at 15h 13m 44s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostApi_listOfInstructors - 2019.02.09 at 15h 13m 44s.xml">
-      <configuration name="PostApi.listOfInstructors" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.02.10 at 15h 17m 22s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostApi_listOfInstructors - 2019.02.09 at 15h 16m 15s.xml">
-      <configuration name="PostApi.listOfInstructors" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.02.10 at 15h 19m 29s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostApi_listOfInstructors - 2019.02.09 at 15h 16m 36s.xml">
-      <configuration name="PostApi.listOfInstructors" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.02.10 at 15h 20m 19s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostApi_studentLocation - 2019.02.09 at 15h 47m 39s.xml">
-      <configuration name="PostApi.studentLocation" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.02.10 at 15h 27m 05s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostApi_studentLocation - 2019.02.09 at 15h 49m 59s.xml">
-      <configuration name="PostApi.studentLocation" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.02.10 at 16h 06m 01s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1562753" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05991903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -579,12 +540,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38898757" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25044405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.06405694" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19715808" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26110125" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.110124335" />
@@ -599,7 +560,7 @@
       <window_info anchor="right" id="Maven" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1562753" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11902834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -608,12 +569,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38898757" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13499112" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.06405694" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19715808" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26110125" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.110124335" />
@@ -629,65 +590,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/YoutubePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/google_stepDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/AmazonPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/GooglePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/GoogleParameters_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber/embedded0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/googleParameters.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/googleSO.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Datatables_stepDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="163" column="1" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Datatable.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -713,13 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/DatatablesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -800,16 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/TestJDBCUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -817,13 +702,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/amazon.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -837,20 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/amazonTitle.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/AmazonTitle_steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/GasMileageCalculatorPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -861,24 +725,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/youtube.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/Youtube_steps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/wiki.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -896,16 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DBType.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -916,37 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/PojoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Amazon_steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/CMstudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -963,31 +776,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Company.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/CMstudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="40">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1000,6 +794,49 @@
             <element signature="imports" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/PostApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1549753998338" expanded="true" signature="3085:3462" ph="..." />
+            <marker date="1549753998338" expanded="true" signature="3153:3462" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/RequestBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1017,57 +854,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/CustomResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Contact.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/PostApi.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/youtube.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        <state>
+          <caret selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/wiki.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Amazon_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/AmazonPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/DatatablesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/amazonTitle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/amazon.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/AmazonTitle_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/apiFeatures/singleStudent.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/apiSteps/SingleStudentSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="16" column="120" selection-start-line="16" selection-start-column="120" selection-end-line="16" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/APIRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiModels/CustomResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/apiFeatures/StudentEmai.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/apiSteps/StudentTitleSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/apiFeatures/StudentTitle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="69" lean-forward="true" selection-end-line="4" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/apiSteps/StudentEmail_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="77" lean-forward="true" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

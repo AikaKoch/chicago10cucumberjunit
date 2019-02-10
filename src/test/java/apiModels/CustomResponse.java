@@ -2,6 +2,7 @@ package apiModels;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import utilities.APIRunner;
 
 import java.util.List;
 
@@ -13,7 +14,24 @@ public class CustomResponse {
     public Contact contact;
     private List<Instructor> instructors;
     private List<Student> students;
+    private Company company;
+    private String jsonResponse;
 
+    public String getJsonResponse() {
+        return jsonResponse;
+    }
+
+    public void setJsonResponse(String jsonResponse) {
+        this.jsonResponse = jsonResponse;
+    }
+
+    public Company getCompany() {
+        return company;
+    }
+
+    public void setCompany(Company company) {
+        this.company = company;
+    }
 
     public List<Student> getStudents() {
         return students;

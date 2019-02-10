@@ -8,6 +8,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
+import utilities.APIRunner;
 
 import java.io.IOException;
 
@@ -65,7 +66,33 @@ public class PostApi {
             }
         }
         System.out.println("Total: "+counter);
+    }
+    @Test
+    public void utilTest(){
+        APIRunner.runGet("http://cybertekchicago.com/student/88");
+        String companyLocation=APIRunner.getResponse().getCompany().getAddress().getCity();
+        System.out.println(companyLocation);
+    }
+    @Test
+    public void batch7Students() {
+        APIRunner.runGet("http://cybertekchicago.com/student/all");
+        int counter = 0;
+        for (Student student : APIRunner.getResponse().getStudents()) {
+            if (student.getBatch() == 7) {
+                System.out.println(student.getFirstName());
+                counter++;
+            }
+             }
+            System.out.println("total batch 7: " + counter);
+            System.out.println("---------");
+            int c = 0;
+            for (Student student1 : APIRunner.getResponse().getStudents()) {
+                if (student1.getCompany().getCompanyName().equals("KOLOBOK")) {
+                    System.out.println(student1.getFirstName());
+                    c++;
+                }
+            }
+            System.out.println("total students in Kolobok: " + c);
+        }
 
     }
-
-}

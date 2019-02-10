@@ -10,7 +10,12 @@ import java.util.concurrent.TimeUnit;
 public class Driver {
     private Driver(){
     }
-    static WebDriver driver;
+    private static WebDriver driver;
+
+    public static WebDriver getDriverReference(){
+        return driver;
+    }
+
     public static WebDriver getDriver(){
         if(driver==null){
             switch (Config.getProperty("browser")){
